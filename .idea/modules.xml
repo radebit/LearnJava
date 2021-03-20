@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LearnJava.iml" filepath="$PROJECT_DIR$/LearnJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-thread/java-thread.iml" filepath="$PROJECT_DIR$/java-thread/java-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-best-practice/java8-best-practice.iml" filepath="$PROJECT_DIR$/java8-best-practice/java8-best-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-completablefuture/java8-completablefuture.iml" filepath="$PROJECT_DIR$/java8-completablefuture/java8-completablefuture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-concurrent/java8-concurrent.iml" filepath="$PROJECT_DIR$/java8-concurrent/java8-concurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-datetime-api/java8-datetime-api.iml" filepath="$PROJECT_DIR$/java8-datetime-api/java8-datetime-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-default-methods/java8-default-methods.iml" filepath="$PROJECT_DIR$/java8-default-methods/java8-default-methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-growing/java8-growing.iml" filepath="$PROJECT_DIR$/java8-growing/java8-growing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-lambda/java8-lambda.iml" filepath="$PROJECT_DIR$/java8-lambda/java8-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-nashorn/java8-nashorn.iml" filepath="$PROJECT_DIR$/java8-nashorn/java8-nashorn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-optional/java8-optional.iml" filepath="$PROJECT_DIR$/java8-optional/java8-optional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-proper/java8-proper.iml" filepath="$PROJECT_DIR$/java8-proper/java8-proper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-stream/java8-stream.iml" filepath="$PROJECT_DIR$/java8-stream/java8-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-test/java8-test.iml" filepath="$PROJECT_DIR$/java8-test/java8-test.iml" />
+    </modules>
+  </component>
+</project>

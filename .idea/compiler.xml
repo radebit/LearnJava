@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java8-datetime-api" />
+        <module name="java8-growing" />
+        <module name="java8-default-methods" />
+        <module name="java-thread" />
+        <module name="java8-best-practice" />
+        <module name="java8-optional" />
+        <module name="java8-lambda" />
+        <module name="java8-test" />
+        <module name="java8-proper" />
+        <module name="java8-completablefuture" />
+        <module name="java8-concurrent" />
+        <module name="java8-nashorn" />
+        <module name="java8-stream" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-thread" target="1.8" />
+      <module name="java8-best-practice" target="1.8" />
+      <module name="java8-completablefuture" target="1.8" />
+      <module name="java8-concurrent" target="1.8" />
+      <module name="java8-datetime-api" target="1.8" />
+      <module name="java8-default-methods" target="1.8" />
+      <module name="java8-growing" target="1.8" />
+      <module name="java8-lambda" target="1.8" />
+      <module name="java8-nashorn" target="1.8" />
+      <module name="java8-optional" target="1.8" />
+      <module name="java8-proper" target="1.8" />
+      <module name="java8-stream" target="1.8" />
+      <module name="java8-test" target="1.8" />
+      <module name="LearnJava" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
