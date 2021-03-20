@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db0fc4fd-ea79-49fd-8307-58c822482081" name="Default Changelist" comment="" />
+    <list default="true" id="db0fc4fd-ea79-49fd-8307-58c822482081" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,8 +186,16 @@
       <workItem from="1615959046315" duration="12179000" />
       <workItem from="1616155788660" duration="1671000" />
       <workItem from="1616212706731" duration="1710000" />
-      <workItem from="1616220959902" duration="29000" />
+      <workItem from="1616220959902" duration="1161000" />
     </task>
+    <task id="LOCAL-00001" summary="首次提交">
+      <created>1616221288726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616221288726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +205,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="首次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
