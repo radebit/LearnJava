@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db0fc4fd-ea79-49fd-8307-58c822482081" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8-test/target/classes/com/radebit/alibaba/Consumer01.class" beforeDir="false" afterPath="$PROJECT_DIR$/java8-test/target/classes/com/radebit/alibaba/Consumer01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8-test/target/classes/com/radebit/alibaba/NumData.class" beforeDir="false" afterPath="$PROJECT_DIR$/java8-test/target/classes/com/radebit/alibaba/NumData.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +75,8 @@
       <recent name="com.radebit.test.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo01">
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radebit.alibaba.Demo" />
       <module name="java8-test" />
       <extension name="coverage">
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radebit.chap01.Demo12" />
+    <configuration name="Demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radebit.chap02.Demo02" />
       <module name="java-thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.radebit.chap01.*" />
+          <option name="PATTERN" value="com.radebit.chap02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Demo02" />
         <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.Demo14" />
         <item itemvalue="Application.Demo13" />
-        <item itemvalue="Application.Demo12" />
-        <item itemvalue="Application.Demo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +195,7 @@
       <workItem from="1616155788660" duration="1671000" />
       <workItem from="1616212706731" duration="1710000" />
       <workItem from="1616220959902" duration="1714000" />
-      <workItem from="1616333784224" duration="4089000" />
+      <workItem from="1616333784224" duration="6921000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1616221288726</created>
@@ -231,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616341638728</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="线程安全">
+      <created>1616471758942</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616471758942</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +254,8 @@
     <MESSAGE value="yield方法" />
     <MESSAGE value="线程优先级" />
     <MESSAGE value="守护线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="守护线程" />
+    <MESSAGE value="线程安全" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程安全" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
