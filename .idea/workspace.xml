@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db0fc4fd-ea79-49fd-8307-58c822482081" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java8-test/target/classes/com/radebit/alibaba/Consumer01.class" beforeDir="false" afterPath="$PROJECT_DIR$/java8-test/target/classes/com/radebit/alibaba/Consumer01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java8-test/target/classes/com/radebit/alibaba/NumData.class" beforeDir="false" afterPath="$PROJECT_DIR$/java8-test/target/classes/com/radebit/alibaba/NumData.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <recent name="com.radebit.test.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo03">
+  <component name="RunManager" selected="Application.Demo04">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radebit.alibaba.Demo" />
       <module name="java8-test" />
@@ -135,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radebit.chap01.Demo14" />
+    <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radebit.chap02.Demo04" />
       <module name="java-thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.radebit.chap01.*" />
+          <option name="PATTERN" value="com.radebit.chap02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,26 +146,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo04" />
         <item itemvalue="Application.Demo03" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Demo02" />
         <item itemvalue="Application.Demo01" />
-        <item itemvalue="Application.Demo14" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +198,8 @@
       <workItem from="1616155788660" duration="1671000" />
       <workItem from="1616212706731" duration="1710000" />
       <workItem from="1616220959902" duration="1714000" />
-      <workItem from="1616333784224" duration="8097000" />
+      <workItem from="1616333784224" duration="11156000" />
+      <workItem from="1616493850129" duration="939000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1616221288726</created>
@@ -253,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616479803830</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="对象锁">
+      <created>1616482211845</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616482211845</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +274,8 @@
     <MESSAGE value="守护线程" />
     <MESSAGE value="线程安全" />
     <MESSAGE value="非线程安全" />
-    <option name="LAST_COMMIT_MESSAGE" value="非线程安全" />
+    <MESSAGE value="对象锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="对象锁" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
