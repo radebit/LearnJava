@@ -15,19 +15,22 @@ public class Demo17 {
     }
 }
 
-class Demo17List{
+class Demo17List {
     private List list = new ArrayList();
-    synchronized public void add(Object obj){
+
+    synchronized public void add(Object obj) {
         list.add(obj);
     }
-    synchronized public int size(){
+
+    synchronized public int size() {
         return list.size();
     }
 }
 
-class Demo17Service{
+class Demo17Service {
     private Object lockObject = new Object();
-    public void add(Demo17List list, Object obj){
+
+    public void add(Demo17List list, Object obj) {
         try {
             synchronized (list) {
                 if (list.size() < 1) {
@@ -35,15 +38,26 @@ class Demo17Service{
                     list.add(obj);
                 }
             }
-        }catch (InterruptedException e){
+//            synchronized (lockObject) {
+//                if (list.size() < 1) {
+//                    Thread.sleep(2000); // 模拟数据的获取
+//                    list.add(obj);
+//                }
+//            }
+//            if (list.size() < 1) {
+//                Thread.sleep(2000); // 模拟数据的获取
+//                list.add(obj);
+//            }
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
 }
 
-class Demo17ThreadA extends Thread{
+class Demo17ThreadA extends Thread {
     private Demo17List list;
-    public Demo17ThreadA(Demo17List list){
+
+    public Demo17ThreadA(Demo17List list) {
         this.list = list;
     }
 
@@ -54,9 +68,10 @@ class Demo17ThreadA extends Thread{
     }
 }
 
-class Demo17ThreadB extends Thread{
+class Demo17ThreadB extends Thread {
     private Demo17List list;
-    public Demo17ThreadB(Demo17List list){
+
+    public Demo17ThreadB(Demo17List list) {
         this.list = list;
     }
 

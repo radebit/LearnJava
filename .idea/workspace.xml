@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db0fc4fd-ea79-49fd-8307-58c822482081" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo17.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8-test/src/main/java/com/radebit/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java8-test/src/main/java/com/radebit/test/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,61 +81,35 @@
       <recent name="com.radebit.test.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo14">
-    <configuration name="Demo10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radebit.chap02.Demo10" />
-      <module name="java-thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radebit.chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radebit.chap02.Demo11" />
-      <module name="java-thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radebit.chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radebit.chap02.Demo12" />
-      <module name="java-thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radebit.chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radebit.chap02.Demo13" />
-      <module name="java-thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radebit.chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MainTest.test03">
     <configuration name="Demo14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radebit.chap02.Demo14" />
+      <module name="java-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radebit.chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radebit.chap02.Demo16" />
+      <module name="java-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radebit.chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radebit.chap02.Demo17" />
       <module name="java-thread" />
       <extension name="coverage">
         <pattern>
@@ -174,13 +132,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radebit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.radebit.test" />
+      <option name="MAIN_CLASS_NAME" value="com.radebit.test.MainTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radebit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.radebit.test" />
+      <option name="MAIN_CLASS_NAME" value="com.radebit.test.MainTest" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.test03" />
+        <item itemvalue="JUnit.MainTest.test02" />
+        <item itemvalue="Application.Demo17" />
+        <item itemvalue="Application.Demo16" />
         <item itemvalue="Application.Demo14" />
-        <item itemvalue="Application.Demo13" />
-        <item itemvalue="Application.Demo12" />
-        <item itemvalue="Application.Demo11" />
-        <item itemvalue="Application.Demo10" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +208,7 @@
       <workItem from="1616333784224" duration="11156000" />
       <workItem from="1616493850129" duration="3893000" />
       <workItem from="1617025143491" duration="3505000" />
-      <workItem from="1617070635722" duration="4881000" />
+      <workItem from="1617070635722" duration="12715000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1616221288726</created>
@@ -311,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617026305084</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="synchronized关键字">
+      <created>1617085643930</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617085643930</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,12 +326,12 @@
     <MESSAGE value="线程安全" />
     <MESSAGE value="非线程安全" />
     <MESSAGE value="对象锁" />
-    <MESSAGE value="synchronized关键字" />
     <MESSAGE value="线程脏读" />
     <MESSAGE value="synchronized锁重入" />
     <MESSAGE value="锁的自动释放" />
     <MESSAGE value="同步不具有继承性" />
-    <option name="LAST_COMMIT_MESSAGE" value="同步不具有继承性" />
+    <MESSAGE value="synchronized关键字" />
+    <option name="LAST_COMMIT_MESSAGE" value="synchronized关键字" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
