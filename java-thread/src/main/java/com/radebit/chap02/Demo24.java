@@ -1,5 +1,9 @@
 package com.radebit.chap02;
 
+/**
+ * 线程A的锁是123，50ms后线程B得到的锁是456，所以线程之间就是异步。如果我们没有Thread.sleep(50)，线程A和线程B的锁都是123，虽然代码里将锁改成了456，
+ * 但是结果还是同步，因为线程A和线程B争抢的锁是123，而不是456。
+ */
 public class Demo24 {
     public static void main(String[] args) throws InterruptedException {
         Demo24Service service = new Demo24Service();

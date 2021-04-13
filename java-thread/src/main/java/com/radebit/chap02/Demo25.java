@@ -1,5 +1,8 @@
 package com.radebit.chap02;
 
+/**
+ * 只要对象不变，即使对象的属性被改变，运行的结果还是同步。
+ */
 public class Demo25 {
     public static void main(String[] args) throws InterruptedException {
         Demo25User user = new Demo25User();
