@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db0fc4fd-ea79-49fd-8307-58c822482081" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo24.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo25.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo26.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap02/Demo26.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +208,7 @@
       <workItem from="1617952283484" duration="1931000" />
       <workItem from="1618045871025" duration="6444000" />
       <workItem from="1618284717072" duration="693000" />
-      <workItem from="1618314717089" duration="1350000" />
+      <workItem from="1618314717089" duration="2563000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1616221288726</created>
@@ -323,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618314734963</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="锁对象同步机制">
+      <created>1618316661696</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618316661696</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +354,8 @@
     <MESSAGE value="synchronized关键字" />
     <MESSAGE value="测试项" />
     <MESSAGE value="更新JD相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新JD相关" />
+    <MESSAGE value="锁对象同步机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="锁对象同步机制" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
