@@ -22,7 +22,7 @@ class Demo18Service{
         }
         System.out.println(Thread.currentThread().getName() + "结束方法foo1在" + System.currentTimeMillis());
     }
-    synchronized public static void foo2(){
+     public static void foo2(){
         System.out.println(Thread.currentThread().getName() + "进入方法foo2在" + System.currentTimeMillis());
         try {
             Thread.sleep(2000);

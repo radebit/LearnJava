@@ -2,8 +2,11 @@ package com.radebit.test;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Random;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -99,7 +102,7 @@ public class MainTest {
     }
 
     @Test
-    public void test03(){
+    public void test03() {
         String a = "<?xml version=\"1.0\" encoding=\"utf-8\"?>  <getUseridByWorkcodeResponse>   \n" +
                 "<ns1:out xmlns:ns1=\"http://localhost/services/HrmService\">{\"code\":\"1\",\"userid\":\"1257\"}</ns1:out> \n" +
                 "<ns1:out xmlns:ns1=\"http://localhost/services/HrmService\"   >{\"code\":\"1\",\"userid\":\"1257\"}</ns1:out>\n" +
@@ -108,5 +111,49 @@ public class MainTest {
 
         Matcher m = p.matcher(a);
         System.out.println(m.replaceAll(""));
+    }
+
+    /**
+     * 合并两个有序数组
+     */
+    @Test
+    public void test04() {
+        int A[] = {1, 2, 3, 4, 6, 6};
+        int B[] = {2, 2, 5, 9, 12, 13, 15};
+        int m = 6;
+        int n = 7;
+        int[] newArr = new int[m + n];
+        int aIndex = m - 1;
+        int bIndex = n - 1;
+        for (int i = newArr.length - 1; i >= 0; i--) {
+            if (aIndex == -1) {
+                // A先循环完成，后面是数据填充B剩余数据即可
+                newArr[i] = B[bIndex];
+                bIndex--;
+            } else if (bIndex == -1) {
+                // B先循环完成，后面是数据填充A剩余数据即可
+                newArr[i] = A[aIndex];
+                aIndex--;
+            } else {
+                if (A[aIndex] < B[bIndex]) {
+                    newArr[i] = B[bIndex];
+                    bIndex--;
+                } else {
+                    newArr[i] = A[aIndex];
+                    aIndex--;
+                }
+            }
+
+        }
+        System.out.println(Arrays.toString(newArr));
+    }
+
+    @Test
+    public void test05(){
+//        HashMap
+//        ArrayList
+        AtomicInteger atomicInteger = new AtomicInteger(1);
+        atomicInteger.incrementAndGet();
+        System.out.println(atomicInteger);
     }
 }
