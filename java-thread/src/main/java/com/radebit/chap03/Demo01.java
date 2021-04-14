@@ -1,4 +1,4 @@
-package com.radebit.chap3;
+package com.radebit.chap03;
 
 import java.util.ArrayList;
 import java.util.List;
