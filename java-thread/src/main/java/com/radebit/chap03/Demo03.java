@@ -11,12 +11,20 @@ package com.radebit.chap03;
  * <p>
  * 当第一个获得该对象锁的wait线程运行完成后，它会释放掉该对象锁，如果 该对象没有再次使用notify语句，则对象处理空闲状态，
  * 其它wait状态的线程由于没有得到通知，还会继续处理阻塞的wait状态，直到这个对象发现次发出通知。
+ * <p>
+ * wait方法自动释放锁，notify方法不会释放锁，notify方法必须执行完同步代码后才会释放锁。
  */
 public class Demo03 {
     public static void main(String[] args) throws InterruptedException {
         Object obj = new Object();
         Thread t1 = new Demo03ThreadA(obj);
+        t1.setName("A");
         t1.start();
+
+        Thread t3 = new Demo03ThreadA(obj);
+        t3.setName("C");
+        t3.start();
+
         Thread.sleep(2000);
         Thread t2 = new Demo03ThreadB(obj);
         t2.start();
@@ -34,9 +42,9 @@ class Demo03ThreadA extends Thread {
     public void run() {
         try {
             synchronized (lock) {
-                System.out.println("线程A开始等待：" + System.currentTimeMillis());
+                System.out.println("线程" + Thread.currentThread().getName() + "开始等待：" + System.currentTimeMillis());
                 lock.wait();
-                System.out.println("线程A结束等待：" + System.currentTimeMillis());
+                System.out.println("线程" + Thread.currentThread().getName() + "结束等待：" + System.currentTimeMillis());
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
