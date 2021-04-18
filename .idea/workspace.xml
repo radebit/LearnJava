@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db0fc4fd-ea79-49fd-8307-58c822482081" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap05/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap05/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap05/Demo03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
       <recent name="com.radebit.test.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo02">
+  <component name="RunManager" selected="Application.Demo03">
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radebit.chap05.Demo01" />
       <module name="java-thread" />
@@ -109,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radebit.chap04.Demo06" />
+    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radebit.chap05.Demo03" />
       <module name="java-thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.radebit.chap04.*" />
+          <option name="PATTERN" value="com.radebit.chap05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo03" />
         <item itemvalue="Application.Demo02" />
         <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.Demo08" />
         <item itemvalue="Application.Demo07" />
-        <item itemvalue="Application.Demo06" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +215,7 @@
       <workItem from="1618469800370" duration="2721000" />
       <workItem from="1618665409108" duration="9362000" />
       <workItem from="1618717033417" duration="3932000" />
-      <workItem from="1618736474475" duration="6538000" />
+      <workItem from="1618736474475" duration="7502000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1616221288726</created>
@@ -470,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618757079950</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="线程状态">
+      <created>1618757768038</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1618757768038</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +486,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="锁的自动释放" />
     <MESSAGE value="同步不具有继承性" />
     <MESSAGE value="synchronized关键字" />
     <MESSAGE value="测试项" />
@@ -505,7 +510,8 @@
     <MESSAGE value="公平锁与非公平锁" />
     <MESSAGE value="实现线程的顺序执行" />
     <MESSAGE value="ReentrantReadWriteLock" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReentrantReadWriteLock" />
+    <MESSAGE value="线程状态" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程状态" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
