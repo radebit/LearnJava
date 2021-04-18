@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db0fc4fd-ea79-49fd-8307-58c822482081" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap04/Demo06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/radebit/chap04/Demo07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,20 +81,7 @@
       <recent name="com.radebit.test.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo06">
-    <configuration name="Demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radebit.chap04.Demo02" />
-      <module name="java-thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radebit.chap04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Demo07">
     <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radebit.chap04.Demo03" />
       <module name="java-thread" />
@@ -147,6 +134,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radebit.chap04.Demo07" />
+      <module name="java-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radebit.chap04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo07" />
         <item itemvalue="Application.Demo06" />
         <item itemvalue="Application.Demo05" />
         <item itemvalue="Application.Demo04" />
         <item itemvalue="Application.Demo03" />
-        <item itemvalue="Application.Demo02" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +215,7 @@
       <workItem from="1618469800370" duration="2721000" />
       <workItem from="1618665409108" duration="9362000" />
       <workItem from="1618717033417" duration="3932000" />
-      <workItem from="1618736474475" duration="2960000" />
+      <workItem from="1618736474475" duration="3499000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1616221288726</created>
@@ -448,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618740032702</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="公平锁与非公平锁">
+      <created>1618752869957</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1618752869957</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +465,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="对象锁" />
     <MESSAGE value="线程脏读" />
     <MESSAGE value="synchronized锁重入" />
     <MESSAGE value="锁的自动释放" />
@@ -483,7 +489,8 @@
     <MESSAGE value="ThreadLocal类" />
     <MESSAGE value="ReentrantLock与Condition" />
     <MESSAGE value="使用Lock实现生产者与消费者" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用Lock实现生产者与消费者" />
+    <MESSAGE value="公平锁与非公平锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="公平锁与非公平锁" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
